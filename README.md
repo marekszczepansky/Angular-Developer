@@ -8,7 +8,7 @@ Direct link: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip
 
 ### Hero age
 
-- As a User I want to be able store hero's age
+- As a User I want to be able store hero age
   - age is positive integer number
   - hero must be at least 18 years old, and cannot be older that 500 years
     - validation required
@@ -31,7 +31,7 @@ Direct link: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip
   - keep it for development only
   
 ### Navbar buttons
-- As a User I want see highlighted curent navigation button
+- As a User I want see highlighted current navigation button
   - for route `/dashboard` button Dashboard should be highlighted
   - for route `/heroes` button Heroes should be highlighted
   - for other routes no navigation button highlighted
@@ -47,6 +47,14 @@ Direct link: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip
 
 ### Heroes list
 - As a User I want to see hero's age and experience on heroes list
+
+### changes in progress
+- As a User I want unsaved data to be protected 
+  - all route changing operations (like nav bar or back button) should check for unsaved data
+  - checking should work for changing details and adding new hero
+  - the simple confirmation message should be displayed, like: your data could be lost, are you sure yes/not?
+  - when user choose 'yes', route change can go on
+  - when user choose 'no', route change should be canceled
 
 ## Refactoring tasks
 
@@ -65,6 +73,6 @@ Direct link: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip
 - command `ng lint` does not work, please fix the problem
 
 ### code coverage
-- unit test code coverage analytics does not working, please fix problem
+- unit test code coverage analytics does not work, please fix problem
 - `ng test -cc` should produce code coverage report
 - **all your code should be reasonable covered by unit and protractor tests**
