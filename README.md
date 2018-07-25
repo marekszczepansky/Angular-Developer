@@ -48,6 +48,10 @@ Direct link: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip
 ### Heroes list
 - As a User I want to see hero's age and experience on heroes list
 
+- As a User I want to see total number of heroes below list
+  - just below list paragraph should appear
+  - content: "Total number of heroes is: x."
+
 ### changes in progress
 - As a User I want unsaved data to be protected 
   - all route changing operations (like nav bar or back button) should check for unsaved data
