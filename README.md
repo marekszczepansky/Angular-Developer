@@ -2,6 +2,7 @@
 
 ## Code source
 Code example comes from Angular tutorial: [Tour of Heroes](https://angular.io/tutorial)<br>
+Live editor version: https://stackblitz.com/angular/jxqeenxxvqm <br>
 Direct link: https://angular.io/generated/zips/toh-pt6/toh-pt6.zip
 
 ## User tasks
